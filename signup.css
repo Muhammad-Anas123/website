@@ -1,0 +1,26 @@
+body{
+    background-image: url(images/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    margin: 0 auto;
+    height: 550px;
+    width: 380px;
+    margin-top: 80px;
+}
+/* .card-header{
+    background-color: lightskyblue;
+} */
+.card:hover{
+    background-color: Lavender;
+    color: black;
+    box-shadow: 5px 5px 10px white;
+    transition: 0.5s;
+}
+button{
+    width: 140px !important;
+}
+button.a{
+    color: white;
+}
